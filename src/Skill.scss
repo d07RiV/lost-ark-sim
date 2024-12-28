@@ -1,0 +1,252 @@
+.skill-table-ex {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+}
+.skill-row {
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 8px;
+
+  &.expanded {
+    border-color: #888;
+  }
+  .name {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    width: 300px;
+    &.no-tripods {
+      width: 482px;
+    }
+    &.no-level {
+      width: 358px;
+    }
+    &.no-tripods.no-level {
+      width: 541px;
+    }
+    line-height: 1;
+    .icon {
+      flex-shrink: 0;
+    }
+  }
+
+  .skill-level {
+    width: 50px;
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  .tripods {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .list {
+        display: flex;
+        flex-direction: row;
+        width: 115px;
+        justify-content: center;
+      }
+      .tripod {
+        font-size: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        filter: grayscale(97%);
+        &.active {
+          filter: none;
+        }
+      }
+    }
+    .compact {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 6px;
+      .tripod {
+        position: relative;
+        .icon {
+          font-size: 32px;
+          border-radius: 50%;
+        }
+        .level {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+        }
+        .index {
+          position: absolute;
+          left: 0;
+          top: 0;
+          background: #444;
+          line-height: 14px;
+          width: 14px;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .gems {
+    width: 84px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    .gem {
+      display: flex;
+      position: relative;
+      cursor: pointer;
+      .level {
+        position: absolute;
+        font-size: 11px;
+        text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+      &.disabled .icon {
+        filter: grayscale(97%);
+      }
+    }
+  }
+
+  .buffs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    .buff {
+      font-size: 28px;
+      cursor: pointer;
+      filter: grayscale(97%);
+      &.active {
+        filter: none;
+      }
+    }
+    flex-grow: 1;
+  }
+}
+
+.skill-header {
+  border: 1px solid transparent;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  .values .col {
+    font-weight: bold;
+  }
+}
+
+.skill-row,
+.skill-header {
+  .values {
+    display: flex;
+    flex-direction: row;
+    & > div {
+      width: 65px;
+      text-align: center;
+    }
+    & > div.freq {
+      width: 120px;
+      input {
+        width: 34px;
+        box-sizing: border-box;
+      }
+    }
+    & > div.dps {
+      width: 120px;
+      font-weight: bold;
+      //color: #8f8;
+    }
+  }
+}
+
+.skill-menu {
+  background: #242424;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 8px;
+  column-count: 2;
+  outline: none;
+  .skill-entry {
+    break-inside: avoid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin: 4px;
+    cursor: pointer;
+  }
+}
+.gem-menu {
+  background: #242424;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  outline: none;
+}
+
+.modal-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(#000, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buff-tooltip {
+  text-align: left;
+  padding: 4px;
+  h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  ul {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.stats-ex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  max-height: 600px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}

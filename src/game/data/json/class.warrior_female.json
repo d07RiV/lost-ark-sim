@@ -1,0 +1,83 @@
+{
+  "runes": {},
+  "arkPassive": {},
+  "engravings": {},
+  "skills": {
+    "45012": {
+      "name": "tip.name.skill_45012",
+      "icon": "BK_Skill_01_35",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 111,
+      "bookType": 1,
+      "category": 0,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 7000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.333299994468689,
+              "playRate": 1.0499999523162842,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.733299970626831,
+                  "group": "Notify",
+                  "name": "[입력캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.733299970626831,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    }
+  },
+  "effects": {},
+  "combatEffects": {},
+  "buffs": {},
+  "projectiles": {},
+  "abilityFeatures": {},
+  "skillFeatures": {}
+}

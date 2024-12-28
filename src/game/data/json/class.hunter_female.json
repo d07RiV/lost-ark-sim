@@ -1,0 +1,559 @@
+{
+  "runes": {},
+  "arkPassive": {},
+  "engravings": {},
+  "skills": {
+    "38151": {
+      "name": "tip.name.skill_38151",
+      "icon": "DH_Skill_01_30",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 511,
+      "bookType": 5,
+      "category": 18,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 8000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.4666669964790344,
+              "playRate": 1.5,
+              "attackSpeed": 1,
+              "nextStage": 5,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.4666669964790344,
+                  "group": "Notify",
+                  "name": "[동시스킬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 5,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.4666669964790344,
+                  "group": "Notify",
+                  "name": "스탠스변경",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    38162,
+                    38163,
+                    38164
+                  ]
+                },
+                {
+                  "time": 0.0880339965224266,
+                  "duration": 0.3786329925060272,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.09531600028276443,
+                  "duration": 0.3713510036468506,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.21639999747276306,
+                  "duration": 0.1657000035047531,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0.3587479889392853,
+                  "duration": 0.10791900008916855,
+                  "group": "Notify",
+                  "name": "[입력시작]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0.39242300391197205,
+                  "duration": 0.07424400001764297,
+                  "group": "Notify",
+                  "name": "[입력중]",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0.4136959910392761,
+                  "duration": 0.052971001714468,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.46619901061058044,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Condition",
+                  "condition": {
+                    "outputStage": [
+                      5,
+                      6,
+                      7,
+                      -1
+                    ],
+                    "validOutputStage": [
+                      5,
+                      6,
+                      7,
+                      -1
+                    ],
+                    "type": "Identity"
+                  },
+                  "conditionOutputCount": 4
+                }
+              ]
+            },
+            {
+              "length": 0.30000001192092896,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.30000001192092896,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.30000001192092896,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.6666669845581055,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.6666669845581055,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.6666669845581055,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.6666669845581055,
+                  "group": "Notify",
+                  "name": "스탠스변경",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    38162,
+                    38163,
+                    38164
+                  ]
+                },
+                {
+                  "time": 0,
+                  "duration": 0.6666669845581055,
+                  "group": "Notify",
+                  "name": "[동시스킬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 5,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5547569990158081,
+                  "duration": 0.11191000044345856,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5547569990158081,
+                  "duration": 0.11191000044345856,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6660000085830688,
+                  "duration": 0,
+                  "group": "Notify",
+                  "notifyType": 2,
+                  "type": "Condition",
+                  "condition": {
+                    "outputStage": [
+                      1,
+                      2,
+                      3,
+                      -1
+                    ],
+                    "validOutputStage": [
+                      1,
+                      2,
+                      3,
+                      -1
+                    ],
+                    "type": "Identity"
+                  },
+                  "conditionOutputCount": 4
+                }
+              ]
+            },
+            {
+              "length": 0.5,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.11153999716043472,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력시작]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력중]",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0.09985300153493881,
+                  "duration": 0.4001469910144806,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.5,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력시작]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력중]",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0,
+                  "duration": 0.11153999716043472,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.09985300153493881,
+                  "duration": 0.4001469910144806,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.5,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[스킬캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력시작]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[입력중]",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 4
+                },
+                {
+                  "time": 0,
+                  "duration": 0.21401900053024292,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20089900493621826,
+                  "duration": 0.29910099506378174,
+                  "group": "Notify",
+                  "name": "[이동캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    }
+  },
+  "effects": {},
+  "combatEffects": {},
+  "buffs": {},
+  "projectiles": {},
+  "abilityFeatures": {},
+  "skillFeatures": {}
+}

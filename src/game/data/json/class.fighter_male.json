@@ -1,0 +1,82 @@
+{
+  "runes": {},
+  "arkPassive": {},
+  "engravings": {},
+  "skills": {
+    "39151": {
+      "name": "",
+      "icon": "BM_Skill_01_15",
+      "learn": 10,
+      "maxLevel": 1,
+      "class": 311,
+      "bookType": 1,
+      "category": 8,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 6000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.6665999889373779,
+              "playRate": 0.800000011920929,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.3157230019569397,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.2199999988079071,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4666000008583069,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3112350106239319,
+                  "duration": 0.35536500811576843,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    }
+  },
+  "effects": {},
+  "combatEffects": {},
+  "buffs": {},
+  "projectiles": {},
+  "abilityFeatures": {},
+  "skillFeatures": {}
+}

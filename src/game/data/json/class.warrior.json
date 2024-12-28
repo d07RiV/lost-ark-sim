@@ -1,0 +1,2391 @@
+{
+  "runes": {},
+  "arkPassive": {},
+  "engravings": {},
+  "skills": {
+    "10000": {
+      "name": "tip.name.skill_10000",
+      "icon": "_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.5333000421524048,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.27000001072883606,
+                  "group": "Notify",
+                  "name": "스킬선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "이동선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "콤보선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.3499999940395355,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100100,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.44999998807907104,
+                  "duration": 1.083299994468689,
+                  "group": "Notify",
+                  "name": "스킬캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5,
+                  "duration": 1.0333000421524048,
+                  "group": "Notify",
+                  "name": "콤보입력",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.9333000183105469,
+                  "group": "Notify",
+                  "name": "콤보입력중",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.699999988079071,
+                  "duration": 0.833299994468689,
+                  "group": "Notify",
+                  "name": "이동캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.5,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "이동선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.2199999988079071,
+                  "group": "Notify",
+                  "name": "스킬선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "콤보선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100101,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 1.100000023841858,
+                  "group": "Notify",
+                  "name": "스킬캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5,
+                  "duration": 1,
+                  "group": "Notify",
+                  "name": "콤보입력",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 1,
+                  "group": "Notify",
+                  "name": "콤보입력중",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.699999988079071,
+                  "duration": 0.800000011920929,
+                  "group": "Notify",
+                  "name": "이동캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.6332999467849731,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.6200000047683716,
+                  "group": "Notify",
+                  "name": "이동선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.3199999928474426,
+                  "group": "Notify",
+                  "name": "스킬선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100102,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "duration": 1.1332999467849731,
+                  "group": "Notify",
+                  "name": "스킬캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.800000011920929,
+                  "duration": 0.833299994468689,
+                  "group": "Notify",
+                  "name": "이동캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.350000023841858,
+                  "duration": 0.2833000123500824,
+                  "group": "Notify",
+                  "name": "스킬캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10010": {
+      "name": "tip.name.skill_10010",
+      "icon": "_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.2000000476837158,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20520000159740448,
+                  "duration": 0.42399999499320984,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2070000022649765,
+                  "duration": 0.22609999775886536,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30090001225471497,
+                  "duration": 0.2011999934911728,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.3095000088214874,
+                  "duration": 0.06480000168085098,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100000,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.42149999737739563,
+                  "duration": 0.7785000205039978,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4235999882221222,
+                  "duration": 0.7764000296592712,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.5006999969482422,
+                  "duration": 0.6992999911308289,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.6175000071525574,
+                  "duration": 0.5824999809265137,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.2000000476837158,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.263700008392334,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.0010000000474974513,
+                  "duration": 0.5062999725341797,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2029000073671341,
+                  "duration": 0.026799999177455902,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100000,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.2542000114917755,
+                  "duration": 0.9458000063896179,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2590999901294708,
+                  "duration": 0.9409000277519226,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.30140000581741333,
+                  "duration": 0.07689999788999557,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.3716000020503998,
+                  "duration": 0.8284000158309937,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.5024999976158142,
+                  "duration": 0.6974999904632568,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.399999976158142,
+              "playRate": 1.149999976158142,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.8173999786376953,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.0010000000474974513,
+                  "duration": 0.9104999899864197,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.599399983882904,
+                  "duration": 0.04179999977350235,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100000,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.8033999800682068,
+                  "duration": 0.5965999960899353,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.9042999744415283,
+                  "duration": 0.49570000171661377,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.1026999950408936,
+                  "duration": 0.2973000109195709,
+                  "group": "Notify",
+                  "disabled": 1,
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "10020": {
+      "name": "tip.name.skill_10020",
+      "icon": "BK_Skill_01_1",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.5666000247001648,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "name": "000Stage",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 0.6666669845581055,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 2,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.6666669845581055,
+                  "group": "Notify",
+                  "name": "000Dodge",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100200,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100201,
+                      "uniqueId": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "length": 0.4666669964790344,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.4666669964790344,
+                  "group": "Notify",
+                  "name": "회피캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "스킬선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.30000001192092896,
+                  "group": "Notify",
+                  "name": "이동선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.16666699945926666,
+                  "group": "Notify",
+                  "name": "스킬캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.16666699945926666,
+                  "group": "Notify",
+                  "name": "이동캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10030": {
+      "name": "tip.name.skill_10030",
+      "icon": "BK_Skill_01_5",
+      "learn": 3,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 4,
+      "runes": 0,
+      "cooltime": 10000,
+      "mana": 31,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.10000000149011612,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": []
+            },
+            {
+              "length": 0.9333329796791077,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100300,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100301,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "스킬선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "이동선입력",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100302,
+                      "uniqueId": 3
+                    }
+                  ]
+                },
+                {
+                  "time": 0.3989129960536957,
+                  "duration": 0.5344200134277344,
+                  "group": "Notify",
+                  "name": "회피캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.33333298563957214,
+                  "group": "Notify",
+                  "name": "이동캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.33333298563957214,
+                  "group": "Notify",
+                  "name": "입력캔슬",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10040": {
+      "name": "tip.name.skill_10040",
+      "icon": "BK_Skill_01_4",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 2,
+      "runes": 0,
+      "cooltime": 9000,
+      "mana": 29,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 2.5,
+              "playRate": 0.9700000286102295,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.30649998784065247,
+                  "duration": 0.024000000208616257,
+                  "group": "Notiy",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100400,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.6434999704360962,
+                  "duration": 0.08330000191926956,
+                  "group": "Notiy",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 2.0332999229431152,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.8199999928474426,
+                  "group": "Noti",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.8199999928474426,
+                  "group": "Noti",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.17450100183486938,
+                  "duration": 0.1103610023856163,
+                  "group": "Noti",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100401,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 1.4333000183105469,
+                  "group": "Noti",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.800000011920929,
+                  "duration": 1.233299970626831,
+                  "group": "Noti",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.800000011920929,
+                  "duration": 1.233299970626831,
+                  "group": "Noti",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10050": {
+      "name": "tip.name.skill_10050",
+      "icon": "BK_Skill_01_7",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 1,
+      "runes": 0,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.399999976158142,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.699999988079071,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20050199329853058,
+                  "duration": 0.8053950071334839,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100500,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.3976159989833832,
+                  "duration": 1.0023839473724365,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.9953579902648926,
+                  "duration": 0.4046419858932495,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10060": {
+      "name": "Tumbling",
+      "icon": "BK_Skill_01_10",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 7000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.333299994468689,
+              "playRate": 1.0499999523162842,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.0010000000474974513,
+                  "duration": 0.7028999924659729,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20090000331401825,
+                  "duration": 0.40139999985694885,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5938000082969666,
+                  "duration": 0.7394999861717224,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6948000192642212,
+                  "duration": 0.6384999752044678,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "10065": {
+      "name": "Stand Up",
+      "icon": "BK_Skill_01_15",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 30000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.2666000127792358,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20582899451255798,
+                  "duration": 0.6951460242271423,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.7998999953269958,
+                  "duration": 0.4661000072956085,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.8797000050544739,
+                  "duration": 0.3862999975681305,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "10070": {
+      "name": "tip.name.skill_10070",
+      "icon": "BK_Skill_01_6",
+      "learn": 7,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 6,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.4000000059604645,
+              "playRate": 1.399999976158142,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": []
+            },
+            {
+              "length": 0.4000000059604645,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 2,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                }
+              ]
+            },
+            {
+              "length": 2.433300018310547,
+              "playRate": 1.399999976158142,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 2.433300018310547,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.28822898864746094,
+                  "duration": 1.1253060102462769,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2887130081653595,
+                  "duration": 1.1222120523452759,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.12110000103712082,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100700,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 1.3919399976730347,
+                  "duration": 1.0413600206375122,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.3982959985733032,
+                  "duration": 1.0350040197372437,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10090": {
+      "name": "tip.name.skill_10090",
+      "icon": "BK_Skill_01_14",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 1,
+      "category": 1,
+      "sort": 3,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 2.6666998863220215,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.4884999990463257,
+                  "duration": 2.1782000064849854,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.9985849857330322,
+                  "duration": 1.0244790315628052,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.999360978603363,
+                  "duration": 1.021697998046875,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.100000023841858,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "name": "00Effect",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 100900,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 1.9988000392913818,
+                  "duration": 0.6678000092506409,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 2.0053999423980713,
+                  "duration": 0.661300003528595,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10110": {
+      "name": "tip.name.skill_10110",
+      "icon": "BK_Skill_01_3",
+      "learn": 5,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 4,
+      "category": 1,
+      "sort": 5,
+      "runes": 0,
+      "cooltime": 24000,
+      "mana": 51,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 4,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.33000001311302185,
+                  "group": "Notify",
+                  "name": "00DMG",
+                  "repeat": 12,
+                  "interval": 0,
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 101100,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0,
+                  "duration": 4,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 7,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 4,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 2,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0,
+                  "duration": 4,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 4,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 0.8666999936103821,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.29899999499320984,
+                  "group": "Notiy",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.29750001430511475,
+                  "group": "Notiy",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.29030001163482666,
+                  "duration": 0.5763999819755554,
+                  "group": "Notiy",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.29030001163482666,
+                  "duration": 0.5763999819755554,
+                  "group": "Notiy",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "10120": {
+      "name": "tip.name.skill_10120",
+      "icon": "BK_Skill_01_12",
+      "learn": 9,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 5,
+      "category": 1,
+      "sort": 7,
+      "runes": 0,
+      "cooltime": 20000,
+      "mana": 46,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 2.3333001136779785,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.30184200406074524,
+                  "duration": 1.0200669765472412,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3037070035934448,
+                  "duration": 1.0138909816741943,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3045620024204254,
+                  "duration": 0.7991909980773926,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.45179998874664307,
+                  "duration": 0.1518000066280365,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 101200,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.5763999819755554,
+                  "duration": 1.7568999528884888,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 0.997838020324707,
+                  "duration": 1.335461974143982,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 1.0924739837646484,
+                  "duration": 1.2408260107040405,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 1.295699954032898,
+                  "duration": 1.037600040435791,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.3078999519348145,
+                  "duration": 1.0254000425338745,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 2.266666889190674,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.2398039996623993,
+                  "duration": 0.1643799990415573,
+                  "group": "Notify",
+                  "name": "01",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 101201,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.43178001046180725,
+                  "duration": 0.1785999983549118,
+                  "group": "Notify",
+                  "name": "01",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 101201,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4967089891433716,
+                  "duration": 1.0204819440841675,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.49826401472091675,
+                  "duration": 1.0089759826660156,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.02217698097229,
+                  "duration": 0.14731599390506744,
+                  "group": "Notify",
+                  "name": "01",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 101202,
+                      "uniqueId": 3
+                    }
+                  ]
+                },
+                {
+                  "time": 1.1208800077438354,
+                  "duration": 1.145787000656128,
+                  "group": "Notify",
+                  "name": "[회피캔슬]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    10060
+                  ]
+                },
+                {
+                  "time": 1.4856209754943848,
+                  "duration": 0.7810459733009338,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.4881269931793213,
+                  "duration": 0.7785400152206421,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": [
+        400000010
+      ]
+    },
+    "9817010": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9817011": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9817012": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9910000": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9910010": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9910020": {
+      "name": "",
+      "icon": "BK_Skill_01_1",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [],
+      "groups": []
+    },
+    "9910030": {
+      "name": "",
+      "icon": "BK_Skill_01_5",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 10000,
+      "mana": 31,
+      "layers": [],
+      "groups": []
+    },
+    "9910040": {
+      "name": "",
+      "icon": "BK_Skill_01_4",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 9000,
+      "mana": 29,
+      "layers": [],
+      "groups": []
+    },
+    "9910050": {
+      "name": "",
+      "icon": "BK_Skill_01_7",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [],
+      "groups": []
+    },
+    "9910060": {
+      "name": "",
+      "icon": "BK_Skill_01_10",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 7000,
+      "layers": [],
+      "groups": []
+    },
+    "9910065": {
+      "name": "",
+      "icon": "BK_Skill_01_15",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 30000,
+      "layers": [],
+      "groups": []
+    },
+    "9910070": {
+      "name": "",
+      "icon": "BK_Skill_01_6",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [],
+      "groups": []
+    },
+    "9910090": {
+      "name": "",
+      "icon": "BK_Skill_01_14",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [],
+      "groups": []
+    },
+    "9910110": {
+      "name": "",
+      "icon": "BK_Skill_01_3",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 24000,
+      "mana": 51,
+      "layers": [],
+      "groups": []
+    },
+    "9910120": {
+      "name": "",
+      "icon": "BK_Skill_01_12",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 1,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 20000,
+      "mana": 46,
+      "layers": [],
+      "groups": []
+    },
+    "9917002": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9917003": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9917004": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 101,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    }
+  },
+  "effects": {
+    "100000": {
+      "type": 1,
+      "values": [
+        1,
+        5,
+        0,
+        0,
+        0,
+        1200
+      ],
+      "directional": 1
+    },
+    "100100": {
+      "type": 1,
+      "values": [
+        {
+          "6": 3,
+          "11": 4,
+          "clvl": 1
+        },
+        {
+          "6": 4,
+          "11": 5,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 4750,
+          "11": 5030,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "100101": {
+      "type": 1,
+      "values": [
+        {
+          "6": 3,
+          "11": 4,
+          "clvl": 1
+        },
+        {
+          "6": 4,
+          "11": 5,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 5250,
+          "11": 5560,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "100102": {
+      "type": 1,
+      "values": [
+        {
+          "6": 4,
+          "11": 5,
+          "clvl": 1
+        },
+        {
+          "6": 5,
+          "11": 6,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 7120,
+          "11": 7540,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "100200": {
+      "type": 1,
+      "values": [
+        7,
+        9,
+        0,
+        0,
+        0,
+        13330,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 33,
+      "aiMax": 33
+    },
+    "100201": {
+      "type": 1,
+      "values": [
+        9,
+        11,
+        0,
+        0,
+        0,
+        16970,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 42,
+      "aiMax": 42
+    },
+    "100300": {
+      "type": 1,
+      "values": [
+        3,
+        4,
+        0,
+        0,
+        0,
+        5040,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 15,
+      "aiMax": 15
+    },
+    "100301": {
+      "type": 1,
+      "values": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        7560,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 23,
+      "aiMax": 23
+    },
+    "100302": {
+      "type": 1,
+      "values": [
+        7,
+        9,
+        0,
+        0,
+        0,
+        12600,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 38,
+      "aiMax": 38
+    },
+    "100400": {
+      "type": 1,
+      "values": [
+        6,
+        7,
+        0,
+        0,
+        0,
+        10610,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 51,
+      "aiMax": 51
+    },
+    "100401": {
+      "type": 1,
+      "values": [
+        11,
+        13,
+        0,
+        0,
+        0,
+        19700,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 96,
+      "aiMax": 96
+    },
+    "100500": {
+      "type": 1,
+      "values": [
+        14,
+        17,
+        0,
+        0,
+        0,
+        26550,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 75,
+      "aiMax": 75,
+      "multiHitCount": 3,
+      "multiHitTime": 300,
+      "divisionType": 1
+    },
+    "100700": {
+      "type": 1,
+      "values": [
+        31,
+        38,
+        0,
+        0,
+        0,
+        56850,
+        1000
+      ],
+      "weakpoint": 1,
+      "directional": 1,
+      "aiMin": 105,
+      "aiMax": 105
+    },
+    "100900": {
+      "type": 1,
+      "values": [
+        32,
+        39,
+        0,
+        0,
+        0,
+        59700,
+        1000
+      ],
+      "weakpoint": 2,
+      "directional": 1,
+      "aiMin": 206,
+      "aiMax": 206
+    },
+    "101100": {
+      "type": 1,
+      "values": [
+        5,
+        6,
+        0,
+        0,
+        0,
+        8730,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 12,
+      "aiMax": 12
+    },
+    "101200": {
+      "type": 1,
+      "values": [
+        8,
+        10,
+        0,
+        0,
+        0,
+        15660,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 35,
+      "aiMax": 35
+    },
+    "101201": {
+      "type": 1,
+      "values": [
+        5,
+        6,
+        0,
+        0,
+        0,
+        9460,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 21,
+      "aiMax": 21
+    },
+    "101202": {
+      "type": 1,
+      "values": [
+        17,
+        21,
+        0,
+        0,
+        0,
+        30670,
+        1000
+      ],
+      "weakpoint": 1,
+      "directional": 1,
+      "aiMin": 69,
+      "aiMax": 69
+    }
+  },
+  "combatEffects": {},
+  "buffs": {},
+  "projectiles": {},
+  "abilityFeatures": {},
+  "skillFeatures": {}
+}

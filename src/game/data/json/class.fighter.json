@@ -1,0 +1,2971 @@
+{
+  "runes": {},
+  "arkPassive": {},
+  "engravings": {},
+  "skills": {
+    "12000": {
+      "name": "",
+      "icon": "_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 2,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.7666670083999634,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.4699999988079071,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.3499999940395355,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.18039999902248383,
+                  "duration": 0.03620000183582306,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120000,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.21478499472141266,
+                  "duration": 0.5518820285797119,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.25029999017715454,
+                  "duration": 0.19949999451637268,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.3292999863624573,
+                  "duration": 0.4373669922351837,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3463999927043915,
+                  "duration": 0.4202669858932495,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.3804999887943268,
+                  "duration": 0.03440000116825104,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120001,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4293000102043152,
+                  "duration": 0.3373669981956482,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.44929999113082886,
+                  "duration": 0.31736698746681213,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.27000001072883606,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.25,
+                  "duration": 0.20000000298023224,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.27469998598098755,
+                  "duration": 0.04600000008940697,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120002,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.30235400795936584,
+                  "duration": 0.6976460218429565,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.3499999940395355,
+                  "duration": 0.6499999761581421,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.3499999940395355,
+                  "duration": 0.6499999761581421,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4300000071525574,
+                  "duration": 0.5699999928474426,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 0.9333329796791077,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.44999998807907104,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.16859999299049377,
+                  "duration": 0.21160000562667847,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.20970000326633453,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120003,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.28139999508857727,
+                  "duration": 0.6519330143928528,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.28453901410102844,
+                  "duration": 0.6487939953804016,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.3610000014305115,
+                  "duration": 0.5723329782485962,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.3799999952316284,
+                  "duration": 0.5533329844474792,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4300000071525574,
+                  "duration": 0.5033329725265503,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.3666670322418213,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.14000000059604645,
+                  "duration": 0.4699999988079071,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.14000000059604645,
+                  "duration": 0.3700000047683716,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120004,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.9666669964790344,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.49000000953674316,
+                  "duration": 0.8766670227050781,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5899999737739563,
+                  "duration": 0.7766669988632202,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.9300000071525574,
+                  "duration": 0.43666699528694153,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12010": {
+      "name": "",
+      "icon": "_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 2,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.1332999467849731,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.3499999940395355,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.3499999940395355,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.3677999973297119,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.3199999928474426,
+                  "duration": 0.05909999832510948,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120100,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.41999998688697815,
+                  "duration": 0.7132999897003174,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    22150
+                  ]
+                },
+                {
+                  "time": 0.4481000006198883,
+                  "duration": 0.6851999759674072,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.5299999713897705,
+                  "duration": 0.6032999753952026,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5299999713897705,
+                  "duration": 0.6032999753952026,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5623000264167786,
+                  "duration": 0.5709999799728394,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 0.8999999761581421,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.21529999375343323,
+                  "duration": 0.0812000036239624,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120100,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.2232999950647354,
+                  "duration": 0.19210000336170197,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.3100000023841858,
+                  "duration": 0.5899999737739563,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.3271999955177307,
+                  "duration": 0.5727999806404114,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.5,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4142000079154968,
+                  "duration": 0.48579999804496765,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                }
+              ]
+            },
+            {
+              "length": 1.100000023841858,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3463999927043915,
+                  "duration": 0.0917000025510788,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120100,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4399999976158142,
+                  "duration": 0.6600000262260437,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.6000000238418579,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.6000000238418579,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12020": {
+      "name": "",
+      "icon": "BM_Skill_01_14",
+      "learn": 1,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 5,
+      "bookTypeValue": 2,
+      "category": 0,
+      "sort": 0,
+      "runes": 2,
+      "cooltime": 8000,
+      "mana": 27,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1,
+              "playRate": 1.0499999523162842,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.10559999942779541,
+                  "duration": 0.03759999945759773,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120200,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.15000000596046448,
+                  "duration": 0.25,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.38999998569488525,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2004999965429306,
+                  "duration": 0.38999998569488525,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.2053000032901764,
+                  "duration": 0.794700026512146,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.699999988079071,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.6000000238418579,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.5699999928474426,
+                  "duration": 0.4300000071525574,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5699999928474426,
+                  "duration": 0.4300000071525574,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.4333000183105469,
+              "playRate": 1.149999976158142,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.19619999825954437,
+                  "duration": 0.03229999914765358,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120201,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.35325899720191956,
+                  "duration": 1.0800410509109497,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.5799999833106995,
+                  "duration": 0.8532999753952026,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5799999833106995,
+                  "duration": 0.8532999753952026,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12030": {
+      "name": "",
+      "icon": "BM_Skill_01_22",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 30000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.333299994468689,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.7200000286102295,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 0.4332999885082245,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 0.4332999885082245,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12040": {
+      "name": "",
+      "icon": "BM_Skill_01_18",
+      "learn": 1,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 1,
+      "runes": 2,
+      "cooltime": 8000,
+      "mana": 27,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.6000000238418579,
+              "playRate": 1.2999999523162842,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": [
+                {
+                  "time": 0.12999999523162842,
+                  "duration": 0,
+                  "group": "Notify",
+                  "repeat": 3,
+                  "interval": 0.15000000596046448,
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120400,
+                      "uniqueId": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "length": 0.766700029373169,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.6100000143051147,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.6100000143051147,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.24940000474452972,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120401,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.3499999940395355,
+                  "duration": 0.41670000553131104,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.5899999737739563,
+                  "duration": 0.17669999599456787,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5899999737739563,
+                  "duration": 0.17669999599456787,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12050": {
+      "name": "",
+      "icon": "BM_Skill_01_6",
+      "learn": 1,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 2,
+      "runes": 2,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.2999999523162842,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": [
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120500,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.8999999761581421,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.550000011920929,
+                  "duration": 0.75,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 1.100000023841858,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 2,
+              "notify": [
+                {
+                  "time": 0.05999999865889549,
+                  "duration": 0.05000000074505806,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120500,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.1599999964237213,
+                  "duration": 0.9399999976158142,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.25,
+                  "duration": 0.8500000238418579,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                }
+              ]
+            },
+            {
+              "length": 0.8666999936103821,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.10000000149011612,
+                  "duration": 0.41999998688697815,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.15000000596046448,
+                  "duration": 0.05000000074505806,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120501,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.25,
+                  "duration": 0.6166999936103821,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.3666999936103821,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5012000203132629,
+                  "duration": 0.36550000309944153,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12060": {
+      "name": "",
+      "icon": "BM_Skill_01_15",
+      "learn": 2,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 0,
+      "identity": true,
+      "runes": 0,
+      "cooltime": 6000,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.666700005531311,
+              "playRate": 0.9800000190734863,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.2199999988079071,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.2199999988079071,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4666000008583069,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.4666000008583069,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12070": {
+      "name": "",
+      "icon": "BM_Skill_01_3",
+      "learn": 1,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 3,
+      "runes": 2,
+      "cooltime": 14000,
+      "mana": 37,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 2.299999952316284,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.1988999992609024,
+                  "duration": 0.041200000792741776,
+                  "group": "Notify",
+                  "repeat": 4,
+                  "interval": 0.20000000298023224,
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120700,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "duration": 1.7999999523162842,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.6304999589920044,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120701,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 1.899999976158142,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.899999976158142,
+                  "duration": 0.4000000059604645,
+                  "group": "Notify",
+                  "name": "[선이Test]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12090": {
+      "name": "",
+      "icon": "BM_Skill_01_16",
+      "learn": 5,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 5,
+      "bookTypeValue": 4,
+      "category": 0,
+      "sort": 15,
+      "runes": 2,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.5666999816894531,
+              "playRate": 1.100000023841858,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.05000000074505806,
+                  "duration": 0.09000000357627869,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120900,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.8199999928474426,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.8199999928474426,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30070000886917114,
+                  "duration": 0.4009999930858612,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.41670000553131104,
+                  "duration": 0.2199999988079071,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120901,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 0.6018000245094299,
+                  "duration": 0.964900016784668,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 0.6539999842643738,
+                  "duration": 0.9126999974250793,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.6960999965667725,
+                  "duration": 0.8705999851226807,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                },
+                {
+                  "time": 1,
+                  "duration": 0.5666999816894531,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.0024000406265259,
+                  "duration": 0.564300000667572,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.399999976158142,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.10000000149011612,
+                  "group": "Notify",
+                  "repeat": 2,
+                  "interval": 0.30000001192092896,
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120902,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.19979999959468842,
+                  "duration": 0.6200000047683716,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.6200000047683716,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.3075999915599823,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.44999998807907104,
+                  "duration": 0.949999988079071,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.4986000061035156,
+                  "duration": 0.9014000296592712,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.6000000238418579,
+                  "duration": 0.800000011920929,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 2
+                },
+                {
+                  "time": 0.800000011920929,
+                  "duration": 0.6000000238418579,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.800000011920929,
+                  "duration": 0.6000000238418579,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.4333000183105469,
+              "playRate": 1.5,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.19709999859333038,
+                  "duration": 0.7200000286102295,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.20000000298023224,
+                  "duration": 0.7200000286102295,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.30000001192092896,
+                  "duration": 0.40639999508857727,
+                  "group": "Notify",
+                  "name": "[선콤]",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.3253999948501587,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120903,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.42500001192092896,
+                  "duration": 1.0082999467849731,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.5175999999046326,
+                  "duration": 0.9157000184059143,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 1,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.70169997215271,
+                  "duration": 0.7315999865531921,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 3,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 3
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 0.53329998254776,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.8999999761581421,
+                  "duration": 0.53329998254776,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.2333329916000366,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.17180000245571136,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.17180000245571136,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.3718000054359436,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 120904,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 1.051800012588501,
+                  "duration": 0.18153299391269684,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 1.1677000522613525,
+                  "duration": 0.06563299894332886,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.1677000522613525,
+                  "duration": 0.06563299894332886,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12100": {
+      "name": "",
+      "icon": "BM_Skill_01_9",
+      "learn": 3,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 15,
+      "runes": 2,
+      "cooltime": 16000,
+      "mana": 40,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 1.5,
+              "playRate": 1.5,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.9972000122070312,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 0.9666669964790344,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.5199999809265137,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.03370000049471855,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 121000,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.4666669964790344,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5,
+                  "duration": 0.4666669964790344,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12110": {
+      "name": "",
+      "icon": "BM_Skill_01_12",
+      "learn": 7,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 2,
+      "category": 0,
+      "sort": 15,
+      "runes": 2,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.10000000149011612,
+              "playRate": 1.2999999523162842,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": []
+            },
+            {
+              "length": 2.1666998863220215,
+              "playRate": 1.2999999523162842,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0.5,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.5,
+                  "duration": 1.0199999809265137,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.9100000262260437,
+                  "duration": 0,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 121101,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0.9200000166893005,
+                  "duration": 0.1695999950170517,
+                  "group": "Notify",
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 121102,
+                      "uniqueId": 2
+                    }
+                  ]
+                },
+                {
+                  "time": 1.0199999809265137,
+                  "duration": 1.1467000246047974,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 1.5,
+                  "duration": 0.666700005531311,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 1.5,
+                  "duration": 0.666700005531311,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "12120": {
+      "name": "",
+      "icon": "BM_Skill_01_23",
+      "learn": 9,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 1,
+      "category": 0,
+      "sort": 15,
+      "runes": 2,
+      "cooltime": 20000,
+      "mana": 91,
+      "layers": [
+        {
+          "stages": [
+            {
+              "length": 0.699999988079071,
+              "playRate": 1.2000000476837158,
+              "attackSpeed": 1,
+              "nextStage": 1,
+              "notify": [
+                {
+                  "time": 0.4000999927520752,
+                  "duration": 0.29989999532699585,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 3,
+                  "instant": 1,
+                  "nextStage": 1
+                }
+              ]
+            },
+            {
+              "length": 2.5,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": 2,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.025100000202655792,
+                  "group": "Notify",
+                  "repeat": 11,
+                  "interval": 0.23999999463558197,
+                  "type": "Effect",
+                  "effects": [
+                    {
+                      "id": 121200,
+                      "uniqueId": 1
+                    }
+                  ]
+                },
+                {
+                  "time": 0,
+                  "duration": 2.5,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 8,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            },
+            {
+              "length": 1.3666000366210938,
+              "playRate": 1,
+              "attackSpeed": 1,
+              "nextStage": -1,
+              "notify": [
+                {
+                  "time": 0,
+                  "duration": 0.7200000286102295,
+                  "group": "Notify",
+                  "name": "[선이]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0,
+                  "duration": 0.7200000286102295,
+                  "group": "Notify",
+                  "name": "[선스]",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.4000000059604645,
+                  "duration": 0.9666000008583069,
+                  "group": "Notify",
+                  "name": "회피기캔슬(테스트)",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1,
+                  "skills": [
+                    12060
+                  ]
+                },
+                {
+                  "time": 0.699999988079071,
+                  "duration": 0.6665999889373779,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 2,
+                  "instant": 1,
+                  "nextStage": -1
+                },
+                {
+                  "time": 0.699999988079071,
+                  "duration": 0.6665999889373779,
+                  "group": "Notify",
+                  "type": "InputTiming",
+                  "inputEvent": 0,
+                  "inputType": 1,
+                  "instant": 1,
+                  "nextStage": -1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    "9912000": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9912010": {
+      "name": "",
+      "icon": "0_0",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "layers": [],
+      "groups": []
+    },
+    "9912020": {
+      "name": "",
+      "icon": "BM_Skill_01_14",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 8000,
+      "mana": 27,
+      "layers": [],
+      "groups": []
+    },
+    "9912030": {
+      "name": "",
+      "icon": "BM_Skill_01_22",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 30000,
+      "layers": [],
+      "groups": []
+    },
+    "9912040": {
+      "name": "",
+      "icon": "BM_Skill_01_18",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 8000,
+      "mana": 27,
+      "layers": [],
+      "groups": []
+    },
+    "9912050": {
+      "name": "",
+      "icon": "BM_Skill_01_6",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 6000,
+      "mana": 23,
+      "layers": [],
+      "groups": []
+    },
+    "9912060": {
+      "name": "",
+      "icon": "BM_Skill_01_15",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 6000,
+      "layers": [],
+      "groups": []
+    },
+    "9912070": {
+      "name": "",
+      "icon": "BM_Skill_01_3",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 14000,
+      "mana": 37,
+      "layers": [],
+      "groups": []
+    },
+    "9912090": {
+      "name": "",
+      "icon": "BM_Skill_01_16",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [],
+      "groups": []
+    },
+    "9912100": {
+      "name": "",
+      "icon": "BM_Skill_01_9",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 16000,
+      "mana": 40,
+      "layers": [],
+      "groups": []
+    },
+    "9912110": {
+      "name": "",
+      "icon": "BM_Skill_01_12",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 18000,
+      "mana": 43,
+      "layers": [],
+      "groups": []
+    },
+    "9912120": {
+      "name": "",
+      "icon": "BM_Skill_01_23",
+      "learn": 0,
+      "maxLevel": 1,
+      "class": 301,
+      "bookType": 0,
+      "category": 0,
+      "sort": 0,
+      "runes": 0,
+      "cooltime": 20000,
+      "mana": 91,
+      "layers": [],
+      "groups": []
+    }
+  },
+  "effects": {
+    "120000": {
+      "type": 1,
+      "values": [
+        {
+          "6": 1,
+          "clvl": 1
+        },
+        {
+          "6": 1,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 1830,
+          "11": 1940,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "120001": {
+      "type": 1,
+      "values": [
+        {
+          "6": 1,
+          "clvl": 1
+        },
+        {
+          "6": 1,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 2330,
+          "11": 2470,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "120002": {
+      "type": 1,
+      "values": [
+        {
+          "6": 2,
+          "11": 3,
+          "clvl": 1
+        },
+        {
+          "6": 2,
+          "11": 4,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 3660,
+          "11": 3880,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "120003": {
+      "type": 1,
+      "values": [
+        {
+          "6": 2,
+          "11": 3,
+          "clvl": 1
+        },
+        {
+          "6": 2,
+          "11": 4,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 4160,
+          "11": 4410,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "120004": {
+      "type": 1,
+      "values": [
+        {
+          "6": 3,
+          "11": 4,
+          "clvl": 1
+        },
+        {
+          "6": 4,
+          "11": 5,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 4660,
+          "11": 4930,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        },
+        {
+          "6": 0,
+          "clvl": 1
+        }
+      ],
+      "directional": 1
+    },
+    "120100": {
+      "type": 1,
+      "values": [
+        1,
+        5,
+        0,
+        0,
+        0,
+        1200
+      ],
+      "directional": 1
+    },
+    "120200": {
+      "type": 1,
+      "values": [
+        5,
+        6,
+        0,
+        0,
+        0,
+        9510,
+        1000
+      ],
+      "directional": 1,
+      "counter": 1,
+      "aiMin": 32,
+      "aiMax": 32
+    },
+    "120201": {
+      "type": 1,
+      "values": [
+        7,
+        9,
+        0,
+        0,
+        0,
+        13140,
+        1000
+      ],
+      "directional": 1,
+      "counter": 1,
+      "aiMin": 44,
+      "aiMax": 44
+    },
+    "120400": {
+      "type": 1,
+      "values": [
+        2,
+        2,
+        0,
+        0,
+        3,
+        3880,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 10,
+      "aiMax": 10,
+      "chainCombatEffect": 120402
+    },
+    "120401": {
+      "type": 1,
+      "values": [
+        9,
+        11,
+        0,
+        0,
+        3,
+        17460,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 45,
+      "aiMax": 45,
+      "chainCombatEffect": 120403
+    },
+    "120500": {
+      "type": 1,
+      "values": [
+        3,
+        4,
+        0,
+        0,
+        0,
+        6300,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 19,
+      "aiMax": 19
+    },
+    "120501": {
+      "type": 1,
+      "values": [
+        7,
+        9,
+        0,
+        0,
+        0,
+        12600,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 38,
+      "aiMax": 38
+    },
+    "120700": {
+      "type": 1,
+      "values": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        6550,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 31,
+      "aiMax": 31,
+      "multiHitCount": 2,
+      "multiHitTime": 200,
+      "divisionType": 0
+    },
+    "120701": {
+      "type": 1,
+      "values": [
+        9,
+        11,
+        0,
+        0,
+        0,
+        17460,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 82,
+      "aiMax": 82
+    },
+    "120900": {
+      "type": 1,
+      "values": [
+        3,
+        4,
+        0,
+        0,
+        0,
+        5730,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 21,
+      "aiMax": 21
+    },
+    "120901": {
+      "type": 1,
+      "values": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        7450,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 27,
+      "aiMax": 27
+    },
+    "120902": {
+      "type": 1,
+      "values": [
+        5,
+        6,
+        0,
+        0,
+        0,
+        8880,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 32,
+      "aiMax": 32,
+      "multiHitCount": 2,
+      "multiHitTime": 200,
+      "divisionType": 0
+    },
+    "120903": {
+      "type": 1,
+      "values": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        6880,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 25,
+      "aiMax": 25
+    },
+    "120904": {
+      "type": 1,
+      "values": [
+        11,
+        13,
+        0,
+        0,
+        0,
+        20060,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 72,
+      "aiMax": 72
+    },
+    "121000": {
+      "type": 12,
+      "values": [
+        121000
+      ]
+    },
+    "121001": {
+      "type": 2,
+      "values": [
+        6,
+        7,
+        0,
+        0,
+        0,
+        11250,
+        1000
+      ],
+      "aiMin": 29,
+      "aiMax": 29
+    },
+    "121101": {
+      "type": 1,
+      "values": [
+        3,
+        4,
+        0,
+        0,
+        1,
+        4770,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 11,
+      "aiMax": 11
+    },
+    "121102": {
+      "type": 1,
+      "values": [
+        21,
+        26,
+        0,
+        0,
+        1,
+        38180,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 88,
+      "aiMax": 88
+    },
+    "121200": {
+      "type": 1,
+      "values": [
+        4,
+        5,
+        0,
+        0,
+        0,
+        6600,
+        1000
+      ],
+      "directional": 1,
+      "aiMin": 19,
+      "aiMax": 19,
+      "multiHitCount": 2,
+      "multiHitTime": 200,
+      "divisionType": 0
+    }
+  },
+  "combatEffects": {},
+  "buffs": {},
+  "projectiles": {
+    "121000": {
+      "lifetime": 5,
+      "effectStart": [
+        {
+          "actions": [
+            {
+              "type": "Effect",
+              "id": 121001,
+              "uniqueId": 1
+            }
+          ],
+          "type": "Timer",
+          "delay": 0,
+          "repeat": 5,
+          "interval": 0.8999999761581421
+        }
+      ],
+      "effectEnd": [],
+      "effectHit": [],
+      "effectCollision": []
+    }
+  },
+  "abilityFeatures": {},
+  "skillFeatures": {}
+}
